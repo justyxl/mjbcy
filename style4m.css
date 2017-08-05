@@ -1,0 +1,156 @@
+*{margin: 0;padding: 0}
+a{text-decoration: none;color: white;}
+li{list-style-type:none;}
+#index{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    font-family: Arial, 微软雅黑, Tahoma, sans-serif;
+    background-color: lightgray;
+}
+
+#mainTop{
+    position: absolute;
+    top: 0;left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 40px;
+    background-color: #0093E7;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.itemIntro{
+    position: absolute;
+    font-size: 1.3rem;
+    width: 70%;height: 40px;
+    left: 15%;top: 0;   
+}
+/* mainTop END */
+
+#mainMid{
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border-bottom: solid 1px lightgray;
+}
+.itemInform2{
+    display: none;
+}
+.itemPic{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-bottom: solid 1px lightgray;
+}
+.itemPic img{
+    width: 100%;
+    height: 100%;
+}
+.itemName{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 1rem;
+}
+.price{
+    margin-left: 65%;margin-top: 1%;
+    font-size: 1.4rem;
+    color: red;
+}
+.itemAdd{
+    margin-left: 5%;
+    font-size: 0.8rem;
+    color: gray;
+}
+/* mainMid END */
+
+#mainDown{
+    position: absolute;
+    font-size: 0.9rem;
+    top: 440px;left: 0;
+    width: 100%;
+    height: 460px; /* 处理foot，需变换 */
+    background-color: #F3F3F3;
+    color: gray;
+}
+.direcTitle{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+.itemDirecInform{
+    float: left;
+    margin-top: 10px;
+    margin-left: 3%;
+    width: 94%;
+    border-top: solid 1px lightgray;
+}
+.directSTitle{
+    margin-top: 10px;
+    float: left;
+    width: 25%;
+}
+.direcInform{
+    margin-top: 10px;
+    float: left;
+    width: 75%;
+}
+
+/* mainDown END */
+
+.tools{
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 50px;
+    background-color: #0093E7;
+    text-align: center;
+}
+.tools div{
+    float: left;
+    width: 50%;
+    height: 100%;
+    line-height: 50px;
+}
+#call,#buy{
+    cursor: pointer;
+}
+.tbuy{
+    font-weight: bold;font-size: 1.2rem;
+}
+
+.contact{
+    position: fixed;
+    width: 100%;height: 100%;
+    z-index: 9999;
+    display: none;
+    background-color: rgba(150,150,150,0.9); /* Black w/ opacity */
+}
+.contact span{
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	margin: 0 0 0 -50px;
+	font-size: 3em;
+	color: red;
+	cursor: pointer;
+}
+.contact img{
+	position: absolute;
+	top: 48%;
+    left: 50%;
+    height: 300px;
+    width: 300px;
+	margin: -150px 0 0 -150px;
+}
+.telephone{
+    position: absolute;
+    bottom: 12%;left: 10%;
+    width: 80%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
